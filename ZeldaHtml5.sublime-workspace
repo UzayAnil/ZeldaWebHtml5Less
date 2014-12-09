@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"Sel",
+				"SELECT"
+			],
+			[
+				"Di",
+				"DISTINCT"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"r",
+				"rows	Attr"
+			],
+			[
+				"st",
+				"style	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LESS/style.less",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LESS/variables.less",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LESS/grid.less",
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-col-3"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 351.0,
+		"history":
+		[
+			"1+1",
+			"def hola():",
+			"class s:",
+			"clear;",
+			"clear",
+			"x",
+			"x = 5;",
+			"python",
+			"class s():",
+			"(2 + 2) * ((25 - 4) / 6)",
+			"(2 + 2) * (25 - 4) / 6",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Html/ZeldaHtml5",
+		"/D/Html/ZeldaHtml5/LESS"
+	],
+	"file_history":
+	[
+		"/D/Html/ZeldaHtml5/LESS/variables.less",
+		"/C/Users/marco/Desktop/cicloinformatica1415.sql",
+		"/C/Users/marco/Desktop/cicloinformatica1415-24-11-14.sql",
+		"/C/Users/marco/AppData/Local/Temp/Comprobar_Vertical-1.java",
+		"/D/ProyectosEclipse/Programacion/evaluacion1/Tema6/src/TresNRaya/MostrarTablero.java",
+		"/C/Users/marco/AppData/Local/Temp/Comprobar_Vertical.java",
+		"/C/Users/marco/AppData/Local/Temp/ComprobarContigua-1.java",
+		"/C/Users/marco/AppData/Local/Temp/ComprobarContigua-2.java",
+		"/C/Users/marco/AppData/Local/Temp/Colocar_Posicion.java",
+		"/C/Users/marco/AppData/Local/Temp/ComprobarContigua.java",
+		"/E/3 n raya/TresNRaya/MostrarTablero.java",
+		"/C/Users/marco/Desktop/3 n raya/Felix/Iniciar_Jugada.java",
+		"/D/Apuntes/Apuntes Entorno/EmailJose.txt",
+		"/C/Users/marco/Desktop/turing/t/index.html",
+		"//databaseserver/shared files/DAM 2015/primero/Base de Datos/UT3/calendariokike.sql",
+		"/D/ProyectosEclipse/Programacion/evaluacion1/Tema6/src/poker/PokerUnoCero - copia.java",
+		"/D/Apuntes/Apuntes BD/Funciones",
+		"/D/Apuntes/Apuntes Entorno/Teclas",
+		"/C/Users/marco/Downloads/theme-4967.xml",
+		"/C/Users/marco/Downloads/monokai.xml",
+		"/C/Users/marco/Downloads/theme-25691.xml",
+		"/D/Apuntes/Apuntes Entorno/errores",
+		"/C/Users/marco/Desktop/Versiones Web/ZeldaWeb-2.0/css/style.css",
+		"//databaseserver/shared files/DAM 2015/primero/Base de Datos/horario.sql",
+		"/C/Users/marco/Downloads/theme-386.xml",
+		"//databaseserver/shared files/DAM 2015/primero/entornos de desarrollo/1º Evaluacion/Tema 2/eclipse/ContadorDivisoresMarco.java",
+		"/C/Users/marco/Desktop/horario.sql",
+		"//databaseserver/shared files/factorial.java",
+		"//databaseserver/shared files/DAM 2015/primero/programacion/1º Evaluacion/Tema 6 iniciacion JAVA/Parte 4 Estructuras repetitivas/ParaUno.java",
+		"/D/Apuntes/Apuntes BD/01-Forma-normal",
+		"/media/marco/4D13D1CD41CF4F19/Maquina de turing/css/bootstrap.css",
+		"/media/marco/4D13D1CD41CF4F19/Maquina de turing/js/bootstrap.js",
+		"/opt/lampp/htdocs/ZeldaWeb/videogames.html",
+		"/opt/lampp/htdocs/ZeldaWeb/universe.html",
+		"/opt/lampp/htdocs/ZeldaWeb/css/style.css",
+		"/opt/lampp/htdocs/ZeldaWeb/contact.html",
+		"/opt/lampp/htdocs/ZeldaWeb/history.html",
+		"/opt/lampp/htdocs/ZeldaWeb/index.html",
+		"/opt/lampp/htdocs/ZeldaWeb/reception.html",
+		"/opt/lampp/htdocs/ZeldaWeb/thanks.html",
+		"/opt/lampp/htdocs/ZeldaWeb/concept.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"*7",
+			"init",
+			"div class=\"game\"",
+			"li class=\"game\"",
+			"<li",
+			"Argumento",
+			"Plataformas en las que ha sido publicado",
+			"Publicación original",
+			"between_2",
+			"(*)",
+			"*"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"*/",
+			"div class=\"content\"",
+			"li",
+			"<h4>Argumento</h4>",
+			"<h4>Plataformas en las que ha sido publicado</h4>",
+			"<h4>Publicación original</h4>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LESS/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LESS/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LESS/grid.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ZeldaHtml5.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
