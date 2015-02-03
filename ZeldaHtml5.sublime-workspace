@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"display"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ancho",
+				"ancho_margen"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"tr",
+				"trf	transform"
+			],
+			[
+				"im",
+				"border-image"
+			],
+			[
+				"bg",
+				"bg+	background: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"g",
+				"bg	background: #${1:000};"
+			],
+			[
+				"a",
+				"anim	animation"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -40,34 +88,18 @@
 	"buffers":
 	[
 		{
-			"file": "LESS/style.less",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 132,
+				"buffer_size": 5222,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "LESS/variables.less",
+			"file": "LESS/mixins.less",
 			"settings":
 			{
-				"buffer_size": 228,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 454,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "LESS/grid.less",
-			"settings":
-			{
-				"buffer_size": 111,
+				"buffer_size": 557,
 				"line_ending": "Windows"
 			}
 		}
@@ -128,11 +160,43 @@
 	"expanded_folders":
 	[
 		"/D/Html/ZeldaHtml5",
-		"/D/Html/ZeldaHtml5/LESS"
+		"/D/Html/ZeldaHtml5/LESS",
+		"/D/Html/ZeldaHtml5/LESS/grid",
+		"/D/Html/ZeldaHtml5/LESS/mixins"
 	],
 	"file_history":
 	[
+		"/D/Html/ZeldaHtml5/LESS/grid/xs.less",
+		"/D/Html/ZeldaHtml5/LESS/grid/lg.less",
+		"/D/Html/ZeldaHtml5/LESS/grid/md.less",
+		"/D/Html/ZeldaHtml5/LESS/grid/sm.less",
+		"/D/Html/ZeldaHtml5/LESS/style.less",
+		"/D/Html/ZeldaHtml5/history.html",
+		"/D/Html/ZeldaHtml5/index.html",
+		"/D/Html/ZeldaHtml5/reception.html",
+		"/D/Html/ZeldaHtml5/thanks.html",
+		"/D/Html/ZeldaHtml5/universe.html",
+		"/D/Html/ZeldaHtml5/videogames.html",
+		"/D/Html/ZeldaHtml5/concept.html",
+		"/D/Html/ZeldaHtml5/contact.html",
+		"/D/Html/ZeldaHtml5/LESS/grid/grid.less",
+		"/D/Html/ZeldaHtml5/LESS/mixins/buttons.less",
+		"/C/Users/marco/Desktop/bootstrap-3.3.1/less/buttons.less",
 		"/D/Html/ZeldaHtml5/LESS/variables.less",
+		"/D/Html/ZeldaHtml5/LESS/mixins.less",
+		"/C/Users/marco/Desktop/bootstrap-3.3.1/less/mixins/buttons.less",
+		"/C/Users/marco/Desktop/Versiones Web/ZeldaWeb-2.0/index.html",
+		"/D/Html/ZeldaHtml5/LESS/iconos.less",
+		"/D/Html/ZeldaHtml5/LESS/mixins/clearfix.less",
+		"/D/Html/ZeldaHtml5/LESS/reset.less",
+		"/D/Html/ZeldaHtml5/LESS/style.css",
+		"/C/Users/marco/Desktop/bootstrap-3.3.1/less/mixins.less",
+		"/D/Html/ZeldaHtml5/style.css",
+		"/D/Html/ZeldaHtml5/LESS/grid.less",
+		"/D/Html/ZeldaHtml5/LESS/xs.less",
+		"/D/Html/ZeldaHtml5/LESS/sm.less",
+		"/D/Html/ZeldaHtml5/LESS/md.less",
+		"/D/Html/ZeldaHtml5/LESS/lg.less",
 		"/C/Users/marco/Desktop/cicloinformatica1415.sql",
 		"/C/Users/marco/Desktop/cicloinformatica1415-24-11-14.sql",
 		"/C/Users/marco/AppData/Local/Temp/Comprobar_Vertical-1.java",
@@ -190,6 +254,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"center",
+			"xs",
 			"*7",
 			"init",
 			"div class=\"game\"",
@@ -208,6 +274,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"lg",
+			"md",
+			"sm",
 			"*/",
 			"div class=\"content\"",
 			"li",
@@ -225,44 +294,45 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LESS/style.less",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 5222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								1009,
+								1009
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "LESS/variables.less",
-					"semi_transient": false,
+					"file": "LESS/mixins.less",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 228,
+						"buffer_size": 557,
 						"regions":
 						{
 						},
@@ -275,70 +345,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "LESS/grid.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -346,7 +361,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -421,7 +436,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 285.0,
+	"side_bar_width": 244.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

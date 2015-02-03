@@ -1,0 +1,26 @@
+input[type="text"],textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  background-color: lighten(@bg-color1,10%);
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+.underline-inputs input[type="text"], .underline-inputs textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px @bg-color1-comp;
+  transition: border 0.3s;
+}
+.underline-inputs input[type="text"]:focus,
+.underline-inputs input[type="text"].focus,
+.underline-inputs textarea:focus {
+  border-bottom: solid 2px darken(@bg-color1-comp, 15%);
+}

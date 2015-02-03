@@ -1,8 +1,101 @@
+@import "reset.less";
 @import "elements.less";
 @import "variables.less";
-@import "grid.less";
+@import "mixins.less";
+@import "inputs.less";
+@import "iconos.less";
 
-/* 480px */
+@import "grid/grid.less";
+
+body{
+    background-color: @body-bg;
+}
+
+img{
+	.responsive();
+}
+
+/*http://paletton.com*/
+
+.row{
+	width: 100%;
+	clear: both;
+    overflow: auto;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.adaptative{
+    width: 100%;
+}
+
+footer{
+    overflow: auto;
+    background-color: @bg-color1;
+    color: @text-color1;
+    text-align: center;
+}
+
+footer > div {
+    float: left;
+}
+
+caption{
+    background-color: rgba(165, 124, 42, 1);
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid rgba(165, 124, 42, 1);
+}
+
+table{
+    margin-bottom: 3em;
+}
+
+th, .columnaTipo{
+    background-color: rgba(115, 124, 42, 1);
+}
+
+.row-tipo-consola{
+    background-color: darkgreen;
+}
+
+.row-consola{
+    background-color: darkred;
+}
+
+article, article>ul>li{
+    padding: 0.5em;
+    margin: 1em;
+    border-width: 1em;
+    border-style: solid;
+    border-image:url("img/content_border.png") 30 30 round;
+    background: url("img/content_bg.png");
+    overflow: auto;
+    clear: left;
+}
+
 @media only screen  and (max-width : @bp1){
-	
+	@import "grid/xs.less";
+}
+
+@media only screen  and (min-width : @bp1) and (max-width : @bp2){
+	@import "grid/sm.less";
+}
+
+@media only screen  and (min-width : @bp2) and (max-width : @bp3){
+	@import "grid/md.less";
+}
+
+@media only screen  and (min-width : @bp3) {
+	@import "grid/lg.less";
 }

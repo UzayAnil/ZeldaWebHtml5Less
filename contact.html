@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>contacto - Legend of Zelda</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div>
-		<img src="img/Zelda_Logo.png" alt="Logotipo de Legend of Zelda" />
+		<img src="img/Zelda_Logo.png" alt="Logotipo de Legend of Zelda"  class="adaptative" />
 	</div>
 
-	<nav>
+	<nav class="nav-bar">
 		<ol>
 			<li><a href="index.html" >Inicio</a></li>
 			<li><a href="history.html">Historia</a></li>
@@ -22,19 +23,19 @@
 	</nav>
 
 	<article>
-		<form action="thanks.html">
+		<form action="thanks.html" class="row underline-inputs">
         <div>
             <h3>Datos personales</h3>
-            <p><span >Nombre:</span><input type="text" name="username" class="formLabel" /></p>
-            <p><span >E-mail:</span><input type="text" name="email" class="formLabel" /></p>
+            <p><label>Nombre:</label><input type="text" name="username" class="formLabel" /></p>
+            <p><label>E-mail:</label><input type="text" name="email" class="formLabel" /></p>
         </div>
         <p>
             <input type="radio" value="Sugerencia" name="sugerencia_errata" checked="checked" />Sugerencia
             <input type="radio" value="Errata" name="sugerencia_errata" />Errata
         </p>
-        <p>Asunto:</p>
+        <p><label>Asunto:</label></p>
         <p><textarea rows="15" cols="60"></textarea></p>
-        <p><input type="submit" value="Enviar" /></p>
+        <p><input type="submit" value="Enviar" class="btn" /></p>
     </form>
     
 	</article>
