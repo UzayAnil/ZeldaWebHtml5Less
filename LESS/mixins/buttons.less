@@ -1,0 +1,38 @@
+.btn-base(@color; @background; @border){
+	color: @color;
+	background-color: @background;
+	border-color: @border;
+  border-style: double;
+
+	  &:hover,
+  	&:focus,
+  	&.focus,
+  	&:active,
+  	&.active,
+  	.open > .dropdown-toggle& {
+    color: @color;
+    background-color: darken(@background, 10%);
+        border-color: darken(@border, 12%);
+  }
+}
+
+.button-size(@padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {
+  padding: @padding-vertical @padding-horizontal;
+  font-size: @font-size;
+  line-height: @line-height;
+  border-radius: @border-radius;
+}
+
+.btn{
+  display: inline-block;
+  margin-bottom: 0; 
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; 
+  border: 1px solid transparent;
+  white-space: nowrap;
+  .btn-base(@text-color1,@bg-color1,@bg-color1-comp);
+  .button-size(1em, 2em, 1em, 1px, .5em)
+}
