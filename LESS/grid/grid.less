@@ -1,0 +1,99 @@
+@ancho_fixed : (@columnas * @ancho_columna) + (@columnas * @ancho_margen) * 1px;
+@ancho_total : 100%;
+
+.columna(@ocupa)
+{
+	width: (@ancho_total * @ocupa) / @columnas;
+}
+.xs-hidden, .sm-hidden, .md-hidden, .lg-hidden {
+	display: initial; 
+}
+.xs-only, .sm-only, .md-only, .lg-only {
+	display: none; 
+	position: absolute;
+	x: -99999;
+	y: -99999;
+}
+
+
+nav.nav-bar{
+
+	ol{
+		list-style: none;
+	}
+
+	a, a:link, a:visited{	    
+	    text-align: center;	    
+	    text-decoration: none;
+	   	background: @bg-color1;	    
+		color: @text-color1;
+	}
+
+	a:hover {
+	    background: @bg-color1-comp;
+	}
+
+	a:active {
+	    background: darken(@bg-color1-comp, 5%);
+	}
+}
+
+@media only screen and (max-width : @bp3) {
+	.collapse{
+		display: none;
+	}
+	
+	nav.nav-bar{
+		background: @bg-color1;	    
+		color: @text-color1;
+
+		a, a:link, a:visited{
+		    float: left;
+		    width: 100%;
+		    padding: .6em;	    	    	    
+		    margin-bottom: .1em;
+		}	
+	}
+
+	.navbar-toggle .icon-menu {
+	    display: block;
+	    border-radius: 1px;
+	}
+}
+
+@media only screen  and (min-width : @bp3) {
+	.navbar-header{display: none;}
+	nav.nav-bar{
+		.row;
+
+		a, a:link, a:visited{
+		    float: left;
+		    width: 100% / 7;
+		    padding: 1.2em;	    	    	    
+		    margin-bottom: .5em;
+		}	
+	}
+
+	input[type="text"],textarea{
+		float: left;
+		width: initial;
+	}
+
+	.underline-inputs label{
+		float: left;
+		margin-top: 10px;
+	}
+
+	form.underline-inputs p:nth-child(2){
+    clear: both;
+  	}
+
+	form textarea{
+		clear:both;
+	}
+
+  	.underline-inputs .btn{
+  		clear: both;
+		display: block;
+  	}
+}
