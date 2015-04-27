@@ -234,7 +234,7 @@ nav.nav-bar a:active {
     width: 100%;
     clear: both;
     overflow: auto;
-    /*Testing atom 2*/
+    /*Testing atom 3*/
   }
   nav.nav-bar a,
   nav.nav-bar a:link,
@@ -276,7 +276,7 @@ img {
   width: 100%;
   clear: both;
   overflow: auto;
-  /*Testing atom 2*/
+  /*Testing atom 3*/
 }
 .sr-only {
   position: absolute;
