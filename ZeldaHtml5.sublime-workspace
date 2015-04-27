@@ -88,18 +88,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "LESS/style.less",
 			"settings":
 			{
-				"buffer_size": 5222,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "LESS/mixins.less",
-			"settings":
-			{
-				"buffer_size": 557,
+				"buffer_size": 1604,
 				"line_ending": "Windows"
 			}
 		}
@@ -160,19 +152,17 @@
 	"expanded_folders":
 	[
 		"/D/Html/ZeldaHtml5",
-		"/D/Html/ZeldaHtml5/LESS",
-		"/D/Html/ZeldaHtml5/LESS/grid",
-		"/D/Html/ZeldaHtml5/LESS/mixins"
+		"/D/Html/ZeldaHtml5/LESS"
 	],
 	"file_history":
 	[
+		"/D/Html/ZeldaHtml5/index.html",
 		"/D/Html/ZeldaHtml5/LESS/grid/xs.less",
 		"/D/Html/ZeldaHtml5/LESS/grid/lg.less",
 		"/D/Html/ZeldaHtml5/LESS/grid/md.less",
 		"/D/Html/ZeldaHtml5/LESS/grid/sm.less",
 		"/D/Html/ZeldaHtml5/LESS/style.less",
 		"/D/Html/ZeldaHtml5/history.html",
-		"/D/Html/ZeldaHtml5/index.html",
 		"/D/Html/ZeldaHtml5/reception.html",
 		"/D/Html/ZeldaHtml5/thanks.html",
 		"/D/Html/ZeldaHtml5/universe.html",
@@ -294,45 +284,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1009,
-								1009
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "LESS/mixins.less",
+					"file": "LESS/style.less",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 557,
+						"buffer_size": 1604,
 						"regions":
 						{
 						},
@@ -346,7 +307,7 @@
 						"settings":
 						{
 							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
